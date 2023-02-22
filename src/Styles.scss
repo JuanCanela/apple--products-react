@@ -1,0 +1,19 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+
+
+$custom-colors: (
+    "apple-green": #1FBF92,
+    "apple-dark-blue": #112E40,
+    "apple-gray": #C7D2D9,
+    "apple-dark-green": #025949,
+    "apple-green-low": #6CD9BA
+);
+
+// Merge the maps
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
