@@ -17,7 +17,7 @@ function DevicesLista() {
 
   useEffect(() => {
     async function fetchData() {
-      const response = await fetch("http://localhost:3000/api/products");
+      const response = await fetch("https://productsapp.fly.dev/api/products");
       const data = await response.json();
       setLoading(false)
       console.log(data);
