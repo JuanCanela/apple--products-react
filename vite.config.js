@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base:"https://github.com/JuanCanela/apple--products-react",
+  base:"https://juancanela.github.io/apple--products-react/",
   plugins: [react()],
 })
