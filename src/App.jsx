@@ -5,7 +5,7 @@ import Section from "./components/Section";
 
 function App() {
   return (
-    <div >
+    <div>
       <nav className="navbar navbar-expand-lg bg-apple-gray ">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
@@ -52,13 +52,9 @@ function App() {
       <div className="container form-control">
         <h1 className="text text-center">Equipos de Apple</h1>
         <div className="container">
-          <div className="row align-items-center">
-            <button className="btn btn-apple-dark-green m-3 col">Laptops</button>
-            <button className="btn btn-apple-dark-green m-3 col">Smarphone</button>
-            <button className="btn btn-apple-dark-green m-3 col">SmartWatch</button>
-          </div>
+            <DevicesList />
         </div>
-        <DevicesList />
+        {/* <DevicesList /> */}
       </div>
 
       <Footer />

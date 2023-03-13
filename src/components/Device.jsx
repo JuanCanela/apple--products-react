@@ -6,7 +6,7 @@ function Device({device}) {
         <h4>{device.name}</h4>
         <img className="img-fliud" src={device.imgURL} alt={device.name} />
         <p>
-          <span><b>Precio:</b></span> ${device.price} <br/>
+          <span><b>Precio:</b></span> ${device.price.toLocaleString()} <br/>
           <span><b>Categoria:</b></span> {device.category} 
         </p>
 
